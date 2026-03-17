@@ -849,7 +849,282 @@ export const useTripsStore = defineStore('trips', () => {
         },
       ]
     },
+    {
+      id: 2,
+      name: "Pérou",
+      description: "Voyage au Pérou",
+      slug: "perou",
+      countries: ["Pérou"],
+      cover: "",
+      startDate: "2018-08-13",
+      endDate: "2018-09-09",
+      mapName: "",
+      showMap: false,
+      photosBase: "perou",
+      photosPrefix: "perou",
+      photosExt: "jpg",
+      jours: [
+        {
+          id: 1,
+          date: "2018-08-13",
+          images: ["4"],
+          location: "Montréal",
+          description: "",
+          fullTextSearch: "",
+          coordinates: { x: 0, y: 0 }
+        },
+        {
+          id: 2,
+          date: "2018-08-14",
+          images: ["5", "6", "7"],
+          location: "Lima",
+          description: "",
+          fullTextSearch: "",
+          coordinates: { x: 0, y: 0 }
+        },
+        {
+          id: 3,
+          date: "2018-08-15",
+          images: ["8", "9"],
+          location: "Arequipa",
+          description: "",
+          fullTextSearch: "",
+          coordinates: { x: 0, y: 0 }
+        },
+        {
+          id: 4,
+          date: "2018-08-16",
+          images: ["10", "11"],
+          location: "Arequipa",
+          description: "",
+          fullTextSearch: "",
+          coordinates: { x: 0, y: 0 }
+        },
+        {
+          id: 5,
+          date: "2018-08-17",
+          images: ["12", "13", "14"],
+          location: "Colca Canyon",
+          description: "",
+          fullTextSearch: "",
+          coordinates: { x: 0, y: 0 }
+        },
+        {
+          id: 6,
+          date: "2018-08-18",
+          images: ["15", "16", "17"],
+          location: "Colca Canyon",
+          description: "",
+          fullTextSearch: "",
+          coordinates: { x: 0, y: 0 }
+        },
+        {
+          id: 7,
+          date: "2018-08-19",
+          images: ["18", "19", "20"],
+          location: "Lac Titicaca",
+          description: "",
+          fullTextSearch: "",
+          coordinates: { x: 0, y: 0 }
+        },
+        {
+          id: 8,
+          date: "2018-08-20",
+          images: ["21", "22"],
+          location: "Lac Titicaca",
+          description: "",
+          fullTextSearch: "",
+          coordinates: { x: 0, y: 0 }
+        },
+        {
+          id: 9,
+          date: "2018-08-21",
+          images: ["23", "24", "25", "26", "27"],
+          location: "Vallée Sacrée",
+          description: "",
+          fullTextSearch: "",
+          coordinates: { x: 0, y: 0 }
+        },
+        {
+          id: 10,
+          date: "2018-08-22",
+          images: ["28", "29", "30", "31"],
+          location: "Ollantaytambo et Aguas Caliente",
+          description: "",
+          fullTextSearch: "",
+          coordinates: { x: 0, y: 0 }
+        },
+        {
+          id: 11,
+          date: "2018-08-23",
+          images: ["32", "33", "34", "35"],
+          location: "Machu Picchu",
+          description: "",
+          fullTextSearch: "",
+          coordinates: { x: 0, y: 0 }
+        },
+        {
+          id: 12,
+          date: "2018-08-24",
+          images: ["36", "37"],
+          location: "Cusco",
+          description: "",
+          fullTextSearch: "",
+          coordinates: { x: 0, y: 0 }
+        },
+        {
+          id: 13,
+          date: "2018-08-25",
+          images: ["38", "39"],
+          location: "Ausangate 1",
+          description: "",
+          fullTextSearch: "",
+          coordinates: { x: 0, y: 0 }
+        },
+        {
+          id: 14,
+          date: "2018-08-26",
+          images: ["40", "41", "42"],
+          location: "Ausangate 2",
+          description: "",
+          fullTextSearch: "",
+          coordinates: { x: 0, y: 0 }
+        },
+        {
+          id: 15,
+          date: "2018-08-27",
+          images: ["43", "44", "45"],
+          location: "Ausangate 3",
+          description: "",
+          fullTextSearch: "",
+          coordinates: { x: 0, y: 0 }
+        },
+        {
+          id: 16,
+          date: "2018-08-28",
+          images: ["46", "47"],
+          location: "Ausangate 4",
+          description: "",
+          fullTextSearch: "",
+          coordinates: { x: 0, y: 0 }
+        },
+        {
+          id: 17,
+          date: "2018-08-29",
+          images: ["48", "49"],
+          location: "Ausangate 5",
+          description: "",
+          fullTextSearch: "",
+          coordinates: { x: 0, y: 0 }
+        },
+        {
+          id: 18,
+          date: "2018-08-30",
+          images: ["50", "51"],
+          location: "Cusco",
+          description: "",
+          fullTextSearch: "",
+          coordinates: { x: 0, y: 0 }
+        },
+        {
+          id: 19,
+          date: "2018-08-31",
+          images: ["52", "53", "54"],
+          location: "Laguna Churup",
+          description: "",
+          fullTextSearch: "",
+          coordinates: { x: 0, y: 0 }
+        },
+        {
+          id: 20,
+          date: "2018-09-01",
+          images: ["55", "56", "57", "58"],
+          location: "Glacier Pastoruri",
+          description: "",
+          fullTextSearch: "",
+          coordinates: { x: 0, y: 0 }
+        },
+        {
+          id: 21,
+          date: "2018-09-02",
+          images: ["59", "60"],
+          location: "Lac Paron",
+          description: "",
+          fullTextSearch: "",
+          coordinates: { x: 0, y: 0 }
+        },
+        {
+          id: 22,
+          date: "2018-09-03",
+          images: ["61", "62", "63", "64"],
+          location: "Santa Cruz 1",
+          description: "",
+          fullTextSearch: "",
+          coordinates: { x: 0, y: 0 }
+        },
+        {
+          id: 23,
+          date: "2018-09-04",
+          images: ["65", "66"],
+          location: "Santa Cruz 2",
+          description: "",
+          fullTextSearch: "",
+          coordinates: { x: 0, y: 0 }
+        },
+        {
+          id: 24,
+          date: "2018-09-05",
+          images: ["67", "68"],
+          location: "Santa Cruz 3",
+          description: "",
+          fullTextSearch: "",
+          coordinates: { x: 0, y: 0 }
+        },
+        {
+          id: 25,
+          date: "2018-09-06",
+          images: ["69", "70"],
+          location: "Santa Cruz 4",
+          description: "",
+          fullTextSearch: "",
+          coordinates: { x: 0, y: 0 }
+        },
+        {
+          id: 26,
+          date: "2018-09-07",
+          images: ["71", "72"],
+          location: "Cruz del Sur",
+          description: "",
+          fullTextSearch: "",
+          coordinates: { x: 0, y: 0 }
+        },
+        {
+          id: 27,
+          date: "2018-09-08",
+          images: ["73", "74"],
+          location: "Avions",
+          description: "",
+          fullTextSearch: "",
+          coordinates: { x: 0, y: 0 }
+        },
+        {
+          id: 28,
+          date: "2018-09-09",
+          images: ["75"],
+          location: "Montréal",
+          description: "",
+          fullTextSearch: "",
+          coordinates: { x: 0, y: 0 }
+        },
+      ]
+    }
   ]
+
+
+
+
+
+
 
 
   const getTripByName = (name: string) => {
