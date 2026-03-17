@@ -22,25 +22,25 @@ export const useTripsStore = defineStore('trips', () => {
         {
           id: 0,
           images: ["2", "3"],
-          location: '',
+          location: 'Montréal',
           date: '2017-05-07',
-          description: '',
+          description: 'Départ',
           fullTextSearch: '',
           coordinates: { x: 0, y: 0 }
         },
         {
           id: 1,
           images: ["4"],
-          location: '',
+          location: 'Doha',
           date: '2017-05-08',
-          description: '',
+          description: 'Escale',
           fullTextSearch: '',
           coordinates: { x: 0, y: 0 }
         },
         {
           id: 2,
           images: ["5"],
-          location: '',
+          location: 'Bangkok',
           date: '2017-05-09',
           description: '',
           fullTextSearch: '',
@@ -49,7 +49,7 @@ export const useTripsStore = defineStore('trips', () => {
         {
           id: 3,
           images: ["6", "7", "8", "9"],
-          location: '',
+          location: 'Bangkok',
           date: '2017-05-10',
           description: '',
           fullTextSearch: '',
@@ -58,16 +58,16 @@ export const useTripsStore = defineStore('trips', () => {
         {
           id: 4,
           images: ["10", "11", "12"],
-          location: '',
+          location: 'Bangkok',
           date: '2017-05-11',
-          description: '',
+          description: 'Railway market',
           fullTextSearch: '',
           coordinates: { x: 0, y: 0 }
         },
         {
           id: 5,
           images: ["13", "14", "15"],
-          location: '',
+          location: 'Bangkok',
           date: '2017-05-12',
           description: '',
           fullTextSearch: '',
@@ -76,7 +76,7 @@ export const useTripsStore = defineStore('trips', () => {
         {
           id: 6,
           images: ["16", "17", "18"],
-          location: '',
+          location: 'Kanchanaburi',
           date: '2017-05-13',
           description: '',
           fullTextSearch: '',
@@ -85,7 +85,7 @@ export const useTripsStore = defineStore('trips', () => {
         {
           id: 7,
           images: ["19", "20"],
-          location: '',
+          location: 'Kanchanaburi',
           date: '2017-05-14',
           description: '',
           fullTextSearch: '',
@@ -94,7 +94,7 @@ export const useTripsStore = defineStore('trips', () => {
         {
           id: 8,
           images: ["21", "22"],
-          location: '',
+          location: 'Kanchanaburi',
           date: '2017-05-15',
           description: '',
           fullTextSearch: '',
@@ -103,7 +103,7 @@ export const useTripsStore = defineStore('trips', () => {
         {
           id: 9,
           images: ["23"],
-          location: '',
+          location: 'Chiang Mai',
           date: '2017-05-16',
           description: '',
           fullTextSearch: '',
@@ -112,7 +112,7 @@ export const useTripsStore = defineStore('trips', () => {
         {
           id: 10,
           images: ["24"],
-          location: '',
+          location: 'Chiang Mai',
           date: '2017-05-17',
           description: '',
           fullTextSearch: '',
@@ -121,7 +121,7 @@ export const useTripsStore = defineStore('trips', () => {
         {
           id: 11,
           images: ["25", "26", "27", "28"],
-          location: '',
+          location: 'Rando de 3 jours',
           date: '2017-05-18',
           description: '',
           fullTextSearch: '',
@@ -130,7 +130,7 @@ export const useTripsStore = defineStore('trips', () => {
         {
           id: 14,
           images: ["29", "30"],
-          location: '',
+          location: 'Chiang Mai',
           date: '2017-05-21',
           description: '',
           fullTextSearch: '',
@@ -139,7 +139,7 @@ export const useTripsStore = defineStore('trips', () => {
         {
           id: 15,
           images: ["31"],
-          location: '',
+          location: 'Pai',
           date: '2017-05-22',
           description: '',
           fullTextSearch: '',
@@ -148,7 +148,7 @@ export const useTripsStore = defineStore('trips', () => {
         {
           id: 16,
           images: ["32", "33"],
-          location: '',
+          location: 'Pai',
           date: '2017-05-23',
           description: '',
           fullTextSearch: '',
@@ -157,7 +157,7 @@ export const useTripsStore = defineStore('trips', () => {
         {
           id: 17,
           images: ["34"],
-          location: '',
+          location: 'Pai',
           date: '2017-05-24',
           description: '',
           fullTextSearch: '',
@@ -166,7 +166,7 @@ export const useTripsStore = defineStore('trips', () => {
         {
           id: 18,
           images: ["35", "36"],
-          location: '',
+          location: 'Pai',
           date: '2017-05-25',
           description: '',
           fullTextSearch: '',
@@ -175,7 +175,7 @@ export const useTripsStore = defineStore('trips', () => {
         {
           id: 19,
           images: ["37", "38"],
-          location: '',
+          location: 'Rando à Pai',
           date: '2017-05-26',
           description: '',
           fullTextSearch: '',
@@ -184,7 +184,7 @@ export const useTripsStore = defineStore('trips', () => {
         {
           id: 20,
           images: ["39", "40"],
-          location: '',
+          location: 'Rando à Pai',
           date: '2017-05-27',
           description: '',
           fullTextSearch: '',
@@ -193,7 +193,7 @@ export const useTripsStore = defineStore('trips', () => {
         {
           id: 21,
           images: ["41"],
-          location: '',
+          location: 'Chiang Rai',
           date: '2017-05-28',
           description: '',
           fullTextSearch: '',
@@ -202,7 +202,7 @@ export const useTripsStore = defineStore('trips', () => {
         {
           id: 22,
           images: ["42", "43"],
-          location: '',
+          location: 'Chiang Rai',
           date: '2017-05-29',
           description: '',
           fullTextSearch: '',
@@ -211,7 +211,7 @@ export const useTripsStore = defineStore('trips', () => {
         {
           id: 23,
           images: ["44"],
-          location: '',
+          location: 'Laos',
           date: '2017-05-30',
           description: '',
           fullTextSearch: '',
@@ -220,7 +220,7 @@ export const useTripsStore = defineStore('trips', () => {
         {
           id: 24,
           images: ["45", "46"],
-          location: '',
+          location: 'Slowboat Laos',
           date: '2017-05-31',
           description: '',
           fullTextSearch: '',
@@ -229,7 +229,7 @@ export const useTripsStore = defineStore('trips', () => {
         {
           id: 25,
           images: ["47"],
-          location: '',
+          location: 'Slowboat Laos',
           date: '2017-06-01',
           description: '',
           fullTextSearch: '',
@@ -238,7 +238,7 @@ export const useTripsStore = defineStore('trips', () => {
         {
           id: 26,
           images: ["48"],
-          location: '',
+          location: 'Luang Prabang',
           date: '2017-06-02',
           description: '',
           fullTextSearch: '',
