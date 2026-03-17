@@ -84,7 +84,7 @@ const goHome = () => {
   <div class="trip-view">
     <div class="trip-header">
       <div class="header-content">
-        <img v-if="trip?.image" :src="trip.image" :alt="trip?.name" class="trip-cover-image" />
+        <img v-if="trip?.cover" :src="trip.cover" :alt="trip?.name" class="trip-cover-image" />
         <div class="header-text">
           <h1>{{ trip?.name }}</h1>
           <p v-if="trip?.description" class="trip-description">{{ trip.description }}</p>
@@ -94,7 +94,7 @@ const goHome = () => {
     </div>
     
     <!-- Map Accordion -->
-    <div class="map-accordion" v-if="trip?.jours.length">
+    <div class="map-accordion" v-if="trip.showMap && trip?.jours.length">
       <button class="map-accordion-btn" @click="isMapOpen = !isMapOpen">
         <span class="accordion-title">🗺️ Carte du voyage</span>
         <span class="accordion-toggle">{{ isMapOpen ? '▼' : '▶' }}</span>
@@ -163,7 +163,7 @@ const goHome = () => {
         <div class="journal-book" v-if="selectedJour.images.length">
           <div class="book-pages">
             <div class="page" v-for="(image, idx) in currentPageImages" :key="idx">
-              <img :src="image" :alt="`Page ${currentPage * 2 + idx + 1}`" />
+              <img :src="`/images/trips/${trip.photosBase}/${trip.photosPrefix}_${image}.${trip.photosExt}`" :alt="`Page ${currentPage * 2 + idx + 1}`" />
             </div>
           </div>
           
