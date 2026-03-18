@@ -210,11 +210,11 @@ export const useTripsStore = defineStore('trips', () => {
         {
           id: 23,
           images: ["44"],
-          location: 'Laos',
+          location: 'Slowboat Laos',
           date: '2017-05-30',
           description: '',
           fullTextSearch: '',
-          coordinates: { x: 0, y: 0 }
+          coordinates: { x: 12, y: 10 }
         },
         {
           id: 24,
@@ -223,7 +223,7 @@ export const useTripsStore = defineStore('trips', () => {
           date: '2017-05-31',
           description: '',
           fullTextSearch: '',
-          coordinates: { x: 0, y: 0 }
+          coordinates: { x: 12, y: 10 }
         },
         {
           id: 25,
@@ -232,7 +232,7 @@ export const useTripsStore = defineStore('trips', () => {
           date: '2017-06-01',
           description: '',
           fullTextSearch: '',
-          coordinates: { x: 0, y: 0 }
+          coordinates: { x: 12, y: 10 }
         },
         {
           id: 26,
@@ -241,345 +241,345 @@ export const useTripsStore = defineStore('trips', () => {
           date: '2017-06-02',
           description: '',
           fullTextSearch: '',
-          coordinates: { x: 0, y: 0 }
+          coordinates: { x: 16, y: 10 }
         },
         {
           id: 27,
           images: ["49", "50"],
-          location: '',
+          location: 'Kuang Si Waterfalls',
           date: '2017-06-03',
           description: '',
           fullTextSearch: '',
-          coordinates: { x: 0, y: 0 }
+          coordinates: { x: 16, y: 10 }
         },
         {
           id: 28,
           images: ["51"],
-          location: '',
+          location: 'Vang Vieng',
           date: '2017-06-04',
           description: '',
           fullTextSearch: '',
-          coordinates: { x: 0, y: 0 }
+          coordinates: { x: 16, y: 14 }
         },
         {
           id: 29,
           images: ["52"],
-          location: '',
+          location: 'Blue Lagoon',
           date: '2017-06-05',
           description: '',
           fullTextSearch: '',
-          coordinates: { x: 0, y: 0 }
+          coordinates: { x: 16, y: 14 }
         },
         {
           id: 30,
           images: ["53", "54"],
-          location: '',
+          location: 'Vang Vieng',
           date: '2017-06-06',
           description: '',
           fullTextSearch: '',
-          coordinates: { x: 0, y: 0 }
+          coordinates: { x: 16, y: 14 }
         },
         {
           id: 31,
           images: ["55", "56"],
-          location: '',
+          location: 'Vang Vieng',
           date: '2017-06-07',
           description: '',
           fullTextSearch: '',
-          coordinates: { x: 0, y: 0 }
+          coordinates: { x: 16, y: 14 }
         },
         {
           id: 32,
           images: ["57"],
-          location: '',
+          location: 'Bus vers Pakse',
           date: '2017-06-08',
           description: '',
           fullTextSearch: '',
-          coordinates: { x: 0, y: 0 }
+          coordinates: { x: 24, y: 17 }
         },
         {
           id: 33,
           images: ["58", "59"],
-          location: '',
+          location: 'Bolaven Plateau',
           date: '2017-06-09',
           description: '',
           fullTextSearch: '',
-          coordinates: { x: 0, y: 0 }
+          coordinates: { x: 30, y: 23 }
         },
         {
           id: 34,
           images: ["60", "61"],
-          location: '',
+          location: 'Bolaven Plateau',
           date: '2017-06-10',
           description: '',
           fullTextSearch: '',
-          coordinates: { x: 0, y: 0 }
+          coordinates: { x: 30, y: 23 }
         },
         {
           id: 35,
           images: ["62"],
-          location: '',
+          location: 'Bolaven Plateau',
           date: '2017-06-11',
           description: '',
           fullTextSearch: '',
-          coordinates: { x: 0, y: 0 }
+          coordinates: { x: 30, y: 23 }
         },
         {
           id: 36,
           images: ["63"],
-          location: '',
+          location: 'Bolaven Plateau',
           date: '2017-06-12',
           description: '',
           fullTextSearch: '',
-          coordinates: { x: 0, y: 0 }
+          coordinates: { x: 30, y: 23 }
         },
         {
           id: 37,
           images: ["64"],
-          location: '',
+          location: 'Champasak',
           date: '2017-06-13',
           description: '',
           fullTextSearch: '',
-          coordinates: { x: 0, y: 0 }
+          coordinates: { x: 28, y: 25 }
         },
         {
           id: 38,
           images: ["65", "66", "67", "68"],
-          location: '',
+          location: '4000 Islands',
           date: '2017-06-14',
           description: '',
           fullTextSearch: '',
-          coordinates: { x: 0, y: 0 }
+          coordinates: { x: 28, y: 27 }
         },
         {
           id: 39,
           images: ["69", "70"],
-          location: '',
+          location: '4000 Islands',
           date: '2017-06-15',
           description: '',
           fullTextSearch: '',
-          coordinates: { x: 0, y: 0 }
+          coordinates: { x: 28, y: 27 }
         },
         {
           id: 40,
           images: ["71"],
-          location: '',
+          location: 'Transport vers Vientiane',
           date: '2017-06-16',
           description: '',
           fullTextSearch: '',
-          coordinates: { x: 0, y: 0 }
+          coordinates: { x: 17, y: 16 }
         },
         {
           id: 41,
           images: ["72"],
-          location: '',
+          location: 'Vientiane',
           date: '2017-06-17',
           description: '',
           fullTextSearch: '',
-          coordinates: { x: 0, y: 0 }
+          coordinates: { x: 17, y: 16 }
         },
         {
           id: 42,
           images: ["73"],
-          location: '',
+          location: 'Hanoi',
           date: '2017-06-18',
           description: '',
           fullTextSearch: '',
-          coordinates: { x: 0, y: 0 }
+          coordinates: { x: 25, y: 7 }
         },
         {
           id: 43,
           images: ["74"],
-          location: '',
+          location: 'Mai Chau',
           date: '2017-06-19',
           description: '',
           fullTextSearch: '',
-          coordinates: { x: 0, y: 0 }
+          coordinates: { x: 23, y: 8 }
         },
         {
           id: 44,
           images: ["75"],
-          location: '',
+          location: 'Mai Chau',
           date: '2017-06-20',
           description: '',
           fullTextSearch: '',
-          coordinates: { x: 0, y: 0 }
+          coordinates: { x: 23, y: 8 }
         },
         {
           id: 45,
           images: ["76"],
-          location: '',
+          location: 'Sapa',
           date: '2017-06-21',
           description: '',
           fullTextSearch: '',
-          coordinates: { x: 0, y: 0 }
+          coordinates: { x: 20, y: 3 }
         },
         {
           id: 46,
           images: ["77"],
-          location: '',
+          location: 'Rando Sapa',
           date: '2017-06-22',
           description: '',
           fullTextSearch: '',
-          coordinates: { x: 0, y: 0 }
+          coordinates: { x: 20, y: 3 }
         },
         {
           id: 47,
           images: ["78", "79"],
-          location: '',
+          location: 'Rando Sapa',
           date: '2017-06-23',
           description: '',
           fullTextSearch: '',
-          coordinates: { x: 0, y: 0 }
+          coordinates: { x: 20, y: 3 }
         },
         {
           id: 48,
           images: ["80"],
-          location: '',
+          location: 'Rando Sapa',
           date: '2017-06-24',
           description: '',
           fullTextSearch: '',
-          coordinates: { x: 0, y: 0 }
+          coordinates: { x: 20, y: 3 }
         },
         {
           id: 49,
           images: ["81"],
-          location: '',
+          location: 'Mu Cang Chai',
           date: '2017-06-25',
           description: '',
           fullTextSearch: '',
-          coordinates: { x: 0, y: 0 }
+          coordinates: { x: 20, y: 5 }
         },
         {
           id: 50,
           images: ["82", "83", "84"],
-          location: '',
+          location: 'Mu Cang Chai',
           date: '2017-06-26',
           description: '',
           fullTextSearch: '',
-          coordinates: { x: 0, y: 0 }
+          coordinates: { x: 20, y: 5 }
         },
         {
           id: 51,
           images: ["85"],
-          location: '',
+          location: 'Mu Cang Chai à Hanoi',
           date: '2017-06-27',
           description: '',
           fullTextSearch: '',
-          coordinates: { x: 0, y: 0 }
+          coordinates: { x: 20, y: 5 }
         },
         {
           id: 52,
           images: ["86"],
-          location: '',
+          location: 'Cat Ba',
           date: '2017-06-28',
           description: '',
           fullTextSearch: '',
-          coordinates: { x: 0, y: 0 }
+          coordinates: { x: 29, y: 8 }
         },
         {
           id: 53,
           images: ["87", "88"],
-          location: '',
+          location: 'Halong Bay',
           date: '2017-06-29',
           description: '',
           fullTextSearch: '',
-          coordinates: { x: 0, y: 0 }
+          coordinates: { x: 29, y: 8 }
         },
         {
           id: 54,
           images: ["89"],
-          location: '',
+          location: 'Halong Bay',
           date: '2017-06-30',
           description: '',
           fullTextSearch: '',
-          coordinates: { x: 0, y: 0 }
+          coordinates: { x: 29, y: 8 }
         },
         {
           id: 55,
           images: ["90"],
-          location: '',
+          location: 'Cat Ba à Ninh Binh',
           date: '2017-07-01',
           description: '',
           fullTextSearch: '',
-          coordinates: { x: 0, y: 0 }
+          coordinates: { x: 25, y: 10 }
         },
         {
           id: 56,
           images: ["91", "92"],
-          location: '',
+          location: 'Ninh Binh',
           date: '2017-07-02',
           description: '',
           fullTextSearch: '',
-          coordinates: { x: 0, y: 0 }
+          coordinates: { x: 25, y: 10 }
         },
         {
           id: 57,
           images: ["93", "94"],
-          location: '',
+          location: 'Ninh Binh',
           date: '2017-07-03',
           description: '',
           fullTextSearch: '',
-          coordinates: { x: 0, y: 0 }
+          coordinates: { x: 25, y: 10 }
         },
         {
           id: 58,
           images: ["95", "96"],
-          location: '',
+          location: 'Phong Nha',
           date: '2017-07-04',
           description: '',
           fullTextSearch: '',
-          coordinates: { x: 0, y: 0 }
+          coordinates: { x: 28, y: 17 }
         },
         {
           id: 59,
           images: ["97"],
-          location: '',
+          location: 'Hue',
           date: '2017-07-05',
           description: '',
           fullTextSearch: '',
-          coordinates: { x: 0, y: 0 }
+          coordinates: { x: 34, y: 22 }
         },
         {
           id: 60,
           images: ["98", "99"],
-          location: '',
+          location: 'Moto vers Hoi An',
           date: '2017-07-06',
           description: '',
           fullTextSearch: '',
-          coordinates: { x: 0, y: 0 }
+          coordinates: { x: 35, y: 23 }
         },
         {
           id: 61,
           images: ["100", "101", "102"],
-          location: '',
+          location: 'Hoi An',
           date: '2017-07-07',
           description: '',
           fullTextSearch: '',
-          coordinates: { x: 0, y: 0 }
+          coordinates: { x: 35.5, y: 24 }
         },
         {
           id: 62,
           images: ["103"],
-          location: '',
+          location: 'Hoi An',
           date: '2017-07-08',
           description: '',
           fullTextSearch: '',
-          coordinates: { x: 0, y: 0 }
+          coordinates: { x: 35.5, y: 24 }
         },
         {
           id: 63,
           images: ["104", "105"],
-          location: '',
+          location: 'Hoi An',
           date: '2017-07-09',
           description: '',
           fullTextSearch: '',
-          coordinates: { x: 0, y: 0 }
+          coordinates: { x: 35.5, y: 24 }
         },
         {
           id: 64,
           images: ["106"],
-          location: '',
+          location: 'Transport vers Bali',
           date: '2017-07-10',
           description: '',
           fullTextSearch: '',
@@ -588,133 +588,133 @@ export const useTripsStore = defineStore('trips', () => {
         {
           id: 65,
           images: ["107"],
-          location: '',
+          location: 'Canggu',
           date: '2017-07-11',
           description: '',
           fullTextSearch: '',
-          coordinates: { x: 0, y: 0 }
+          coordinates: { x: 60, y: 69 }
         },
         {
           id: 66,
           images: ["108"],
-          location: '',
+          location: 'Canggu',
           date: '2017-07-12',
           description: '',
           fullTextSearch: '',
-          coordinates: { x: 0, y: 0 }
+          coordinates: { x: 60, y: 69 }
         },
         {
           id: 67,
           images: ["109"],
-          location: '',
+          location: 'Vers Sanur',
           date: '2017-07-13',
           description: '',
           fullTextSearch: '',
-          coordinates: { x: 0, y: 0 }
+          coordinates: { x: 63, y: 69 }
         },
         {
           id: 68,
           images: ["110", "111"],
-          location: '',
+          location: 'Sanur',
           date: '2017-07-14',
           description: '',
           fullTextSearch: '',
-          coordinates: { x: 0, y: 0 }
+          coordinates: { x: 63, y: 69 }
         },
         {
           id: 69,
           images: ["112"],
-          location: '',
+          location: 'Sanur et Ubud',
           date: '2017-07-15',
           description: '',
           fullTextSearch: '',
-          coordinates: { x: 0, y: 0 }
+          coordinates: { x: 62, y: 68 }
         },
         {
           id: 70,
           images: ["113", "114"],
-          location: '',
+          location: 'Ubud en scooter',
           date: '2017-07-16',
           description: '',
           fullTextSearch: '',
-          coordinates: { x: 0, y: 0 }
+          coordinates: { x: 62, y: 68 }
         },
         {
           id: 71,
           images: ["115", "116"],
-          location: '',
+          location: 'Mont Batur',
           date: '2017-07-17',
           description: '',
           fullTextSearch: '',
-          coordinates: { x: 0, y: 0 }
+          coordinates: { x: 62, y: 68 }
         },
         {
           id: 72,
           images: ["117"],
-          location: '',
+          location: 'Ubud',
           date: '2017-07-18',
           description: '',
           fullTextSearch: '',
-          coordinates: { x: 0, y: 0 }
+          coordinates: { x: 62, y: 68 }
         },
         {
           id: 73,
           images: ["118"],
-          location: '',
+          location: 'Legian',
           date: '2017-07-19',
           description: '',
           fullTextSearch: '',
-          coordinates: { x: 0, y: 0 }
+          coordinates: { x: 61, y: 71 }
         },
         {
           id: 74,
           images: ["119"],
-          location: '',
+          location: 'Bali vers Lombok',
           date: '2017-07-20',
           description: '',
           fullTextSearch: '',
-          coordinates: { x: 0, y: 0 }
+          coordinates: { x: 72, y: 66 }
         },
         {
           id: 75,
           images: ["120", "121"],
-          location: '',
+          location: 'Rinjani 1',
           date: '2017-07-21',
           description: '',
           fullTextSearch: '',
-          coordinates: { x: 0, y: 0 }
+          coordinates: { x: 72, y: 68 }
         },
         {
           id: 76,
           images: ["122", "123", "124", "125"],
-          location: '',
+          location: 'Rinjani 2',
           date: '2017-07-22',
           description: '',
           fullTextSearch: '',
-          coordinates: { x: 0, y: 0 }
+          coordinates: { x: 72, y: 68 }
         },
         {
           id: 77,
           images: ["126"],
-          location: '',
+          location: 'Rinjani 3',
           date: '2017-07-23',
           description: '',
           fullTextSearch: '',
-          coordinates: { x: 0, y: 0 }
+          coordinates: { x: 72, y: 68 }
         },
         {
           id: 78,
           images: ["127", "128"],
-          location: '',
+          location: 'Gili Meno',
           date: '2017-07-24',
           description: '',
           fullTextSearch: '',
-          coordinates: { x: 0, y: 0 }
+          coordinates: { x: 68, y: 68 }
         },
         {
           id: 79,
           images: ["129"],
-          location: '',
+          location: 'Gili Meno',
           date: '2017-07-25',
           description: '',
           fullTextSearch: '',
@@ -723,7 +723,7 @@ export const useTripsStore = defineStore('trips', () => {
         {
           id: 80,
           images: ["130"],
-          location: '',
+          location: 'Gili Meno',
           date: '2017-07-26',
           description: '',
           fullTextSearch: '',
@@ -732,79 +732,79 @@ export const useTripsStore = defineStore('trips', () => {
         {
           id: 81,
           images: ["131"],
-          location: '',
+          location: 'Gili vers Amed',
           date: '2017-07-27',
           description: '',
           fullTextSearch: '',
-          coordinates: { x: 0, y: 0 }
+          coordinates: { x: 66, y: 67 }
         },
         {
           id: 82,
           images: ["132"],
-          location: '',
+          location: 'Amed',
           date: '2017-07-28',
           description: '',
           fullTextSearch: '',
-          coordinates: { x: 0, y: 0 }
+          coordinates: { x: 66, y: 67 }
         },
         {
           id: 83,
           images: ["133"],
-          location: '',
+          location: 'Amed',
           date: '2017-07-29',
           description: '',
           fullTextSearch: '',
-          coordinates: { x: 0, y: 0 }
+          coordinates: { x: 66, y: 67 }
         },
         {
           id: 84,
           images: ["134"],
-          location: '',
+          location: 'Amed vers Lovina',
           date: '2017-07-30',
           description: '',
           fullTextSearch: '',
-          coordinates: { x: 0, y: 0 }
+          coordinates: { x: 59, y: 66 }
         },
         {
           id: 85,
           images: ["135", "136", "137"],
-          location: '',
+          location: 'Lovina et Bedugul',
           date: '2017-07-31',
           description: '',
           fullTextSearch: '',
-          coordinates: { x: 0, y: 0 }
+          coordinates: { x: 59, y: 66 }
         },
         {
           id: 86,
           images: ["138", "139"],
-          location: '',
+          location: 'Bedugul et Munduk',
           date: '2017-08-01',
           description: '',
           fullTextSearch: '',
-          coordinates: { x: 0, y: 0 }
+          coordinates: { x: 60.5, y: 67 }
         },
         {
           id: 87,
           images: ["140"],
-          location: '',
+          location: 'Menjangan',
           date: '2017-08-02',
           description: '',
           fullTextSearch: '',
-          coordinates: { x: 0, y: 0 }
+          coordinates: { x: 56, y: 65 }
         },
         {
           id: 88,
           images: ["141", "142"],
-          location: '',
+          location: 'Menjangan',
           date: '2017-08-03',
           description: '',
           fullTextSearch: '',
-          coordinates: { x: 0, y: 0 }
+          coordinates: { x: 56, y: 65 }
         },
         {
           id: 89,
           images: ["143"],
-          location: '',
+          location: 'Bali vers Java',
           date: '2017-08-04',
           description: '',
           fullTextSearch: '',
@@ -813,34 +813,34 @@ export const useTripsStore = defineStore('trips', () => {
         {
           id: 90,
           images: ["144", "145", "146"],
-          location: '',
+          location: 'Kawah Ijen',
           date: '2017-08-05',
           description: '',
           fullTextSearch: '',
-          coordinates: { x: 0, y: 0 }
+          coordinates: { x: 52, y: 65 }
         },
         {
           id: 91,
           images: ["147", "148", "149", "150"],
-          location: '',
+          location: 'Bromo',
           date: '2017-08-06',
           description: '',
           fullTextSearch: '',
-          coordinates: { x: 0, y: 0 }
+          coordinates: { x: 42, y: 64 }
         },
         {
           id: 92,
           images: ["151"],
-          location: '',
+          location: 'Surabaya',
           date: '2017-08-07',
           description: '',
           fullTextSearch: '',
-          coordinates: { x: 0, y: 0 }
+          coordinates: { x: 40, y: 58 }
         },
         {
           id: 93,
           images: ["152", "153"],
-          location: '',
+          location: 'Transport vers Montréal',
           date: '2017-08-08',
           description: '',
           fullTextSearch: '',

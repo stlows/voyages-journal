@@ -155,8 +155,8 @@ const goHome = () => {
           :class="{ active: jour.id === selectedJourId }"
           @click="selectJour(jour)"
         >
-          <div class="day-date">{{ jour.date }}</div>
-          <div class="day-location">{{ jour.location }}</div>
+          <div class="day-date">{{jour.id}}. {{ jour.location }}</div>
+          <div class="day-location">{{ jour.date }}</div>
         </div>
       </div>
 
@@ -318,6 +318,10 @@ const goHome = () => {
   z-index: 10;
 }
 
+.map-point:hover {
+  z-index: 1000;
+}
+
 .map-point.active {
   width: 40px;
   height: 40px;
@@ -351,9 +355,6 @@ const goHome = () => {
 
 .point-tooltip {
   position: absolute;
-  bottom: 100%;
-  left: 50%;
-  transform: translateX(-50%);
   background: rgba(0, 0, 0, 0.8);
   color: white;
   padding: 8px 12px;
@@ -363,7 +364,11 @@ const goHome = () => {
   pointer-events: none;
   opacity: 0;
   transition: opacity 0.2s ease;
-  margin-bottom: 10px;
+  margin-left: 10px;
+  z-index: 9999;
+  top: 50%;
+  left: 100%;
+  transform: translateY(-50%);
 }
 
 .map-point:hover .point-tooltip {
@@ -460,6 +465,7 @@ const goHome = () => {
   overflow-y: auto;
   display: flex;
   flex-direction: column;
+  max-height: 1000px;
 }
 
 .day-item {
