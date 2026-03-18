@@ -10,8 +10,7 @@ export interface Trip {
     endDate: string,
     cover: string,
     jours: Jour[],
-    mapName: string,
-    showMap: boolean,
+    map: string,
     photosBase: string,
     photosPrefix: string,
     photosExt: string

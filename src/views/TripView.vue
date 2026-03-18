@@ -40,6 +40,11 @@ const selectedJour = computed(() => {
   return jours.value.find(j => j.id === selectedJourId.value)
 })
 
+const map = computed(() => {
+  if (!trip.value) return null
+  return trip.value.map || null
+})
+
 watchEffect(() => {
   if (trip.value && selectedJour.value) {
     document.title = `${trip.value.name} - ${selectedJour.value.location}`
@@ -94,7 +99,7 @@ const goHome = () => {
     </div>
     
     <!-- Map Accordion -->
-    <div class="map-accordion" v-if="trip?.showMap && trip?.jours.length">
+    <div class="map-accordion" v-if="map">
       <button class="map-accordion-btn" @click="isMapOpen = !isMapOpen">
         <span class="accordion-title">🗺️ Carte du voyage</span>
         <span class="accordion-toggle">{{ isMapOpen ? '▼' : '▶' }}</span>
@@ -102,24 +107,30 @@ const goHome = () => {
       
       <div class="map-accordion-content" v-if="isMapOpen">
         <div class="map-container">
-          <img 
-            :src="`/src/assets/images/trips/${tripName}/map/${trip?.mapName}`"
-            :alt="trip.name"
-            class="map-image"
-          />
-          
-          <!-- Map points -->
-          <div 
-            v-for="jour in jours"
-            :key="jour.id"
-            class="map-point"
-            :class="{ active: jour.id === selectedJourId }"
-            :style="{ left: jour.coordinates.x + '%', top: jour.coordinates.y + '%' }"
-            :title="jour.location"
-            @click="selectJour(jour)"
-          >
-            <span class="point-number">{{ jour.id }}</span>
-            <span class="point-tooltip">{{ jour.location }}</span>
+          <div class="map-wrapper">
+            <img 
+              :src="`/images/maps/${map}`"
+              :alt="trip?.name"
+              class="map-image"
+            />
+            
+            <!-- Map points -->
+            <div 
+              v-for="jour in jours.filter(j => j.coordinates.x > 0 && j.coordinates.y > 0)"
+              :key="jour.id"
+              class="map-point"
+              :class="{ active: jour.id === selectedJourId }"
+              :style="{ left: jour.coordinates.x + '%', top: jour.coordinates.y + '%' }"
+              :title="jour.location"
+              @click="selectJour(jour)"
+            >
+              <span class="point-number">
+                <template v-if="jour.id === selectedJourId">
+                  {{ jour.id }}
+                </template>
+              </span>
+              <span class="point-tooltip">{{ jour.location }}</span>
+            </div>
           </div>
         </div>
       </div>
@@ -213,7 +224,6 @@ const goHome = () => {
   padding: 20px;
   border-radius: 8px;
   color: white;
-  overflow: hidden;
 }
 
 /* Map Accordion Styles */
@@ -221,7 +231,6 @@ const goHome = () => {
   margin-bottom: 20px;
   border: 1px solid #e0e0e0;
   border-radius: 8px;
-  overflow: hidden;
   background: white;
 }
 
@@ -271,15 +280,19 @@ const goHome = () => {
 }
 
 .map-container {
-  position: relative;
   width: 100%;
   padding: 20px;
   background: #f9f9f9;
   display: flex;
   align-items: center;
   justify-content: center;
-  max-height: 500px;
+  max-height: 600px;
   overflow: hidden;
+}
+
+.map-wrapper {
+  position: relative;
+  display: inline-block;
 }
 
 .map-image {
@@ -294,8 +307,8 @@ const goHome = () => {
 
 .map-point {
   position: absolute;
-  width: 40px;
-  height: 40px;
+  width: 8px;
+  height: 8px;
   transform: translate(-50%, -50%);
   cursor: pointer;
   display: flex;
@@ -305,30 +318,34 @@ const goHome = () => {
   z-index: 10;
 }
 
+.map-point.active {
+  width: 40px;
+  height: 40px;
+  z-index: 20;
+}
+
 .point-number {
-  width: 32px;
-  height: 32px;
+  width: 8px;
+  height: 8px;
   border-radius: 50%;
-  background: #1e90ff;
+  background: #000000;
   color: white;
   display: flex;
   align-items: center;
   justify-content: center;
   font-weight: bold;
   font-size: 14px;
-  box-shadow: 0 2px 8px rgba(30, 144, 255, 0.4);
   transition: all 0.2s ease;
 }
 
 .map-point:hover .point-number {
-  width: 40px;
-  height: 40px;
-  font-size: 16px;
-  box-shadow: 0 4px 12px rgba(30, 144, 255, 0.6);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
 }
 
 .map-point.active .point-number {
   background: #ff6b6b;
+  width: 40px;
+  height: 40px;
   box-shadow: 0 4px 12px rgba(255, 107, 107, 0.6);
 }
 
@@ -407,7 +424,6 @@ const goHome = () => {
   display: flex;
   flex: 1;
   gap: 30px;
-  overflow: hidden;
 }
 
 .search-container {

@@ -13,8 +13,7 @@ export const useTripsStore = defineStore('trips', () => {
       startDate: '2017-05-07',
       endDate: '2017-08-08',
       cover: "asie_cover.jpg",
-      showMap: false,
-      mapName: "",
+      map: "sea.png",
       photosBase: "asie",
       photosPrefix: "asie",
       photosExt: "jpg",
@@ -44,7 +43,7 @@ export const useTripsStore = defineStore('trips', () => {
           date: '2017-05-09',
           description: '',
           fullTextSearch: '',
-          coordinates: { x: 0, y: 0 }
+          coordinates: { x: 13, y: 29 }
         },
         {
           id: 3,
@@ -53,7 +52,7 @@ export const useTripsStore = defineStore('trips', () => {
           date: '2017-05-10',
           description: '',
           fullTextSearch: '',
-          coordinates: { x: 0, y: 0 }
+          coordinates: { x: 13, y: 29 }
         },
         {
           id: 4,
@@ -62,7 +61,7 @@ export const useTripsStore = defineStore('trips', () => {
           date: '2017-05-11',
           description: 'Railway market',
           fullTextSearch: '',
-          coordinates: { x: 0, y: 0 }
+          coordinates: { x: 13, y: 29 }
         },
         {
           id: 5,
@@ -71,7 +70,7 @@ export const useTripsStore = defineStore('trips', () => {
           date: '2017-05-12',
           description: '',
           fullTextSearch: '',
-          coordinates: { x: 0, y: 0 }
+          coordinates: { x: 13, y: 29 }
         },
         {
           id: 6,
@@ -80,7 +79,7 @@ export const useTripsStore = defineStore('trips', () => {
           date: '2017-05-13',
           description: '',
           fullTextSearch: '',
-          coordinates: { x: 0, y: 0 }
+          coordinates: { x: 12, y: 27 }
         },
         {
           id: 7,
@@ -89,7 +88,7 @@ export const useTripsStore = defineStore('trips', () => {
           date: '2017-05-14',
           description: '',
           fullTextSearch: '',
-          coordinates: { x: 0, y: 0 }
+          coordinates: { x: 12, y: 27 }
         },
         {
           id: 8,
@@ -98,7 +97,7 @@ export const useTripsStore = defineStore('trips', () => {
           date: '2017-05-15',
           description: '',
           fullTextSearch: '',
-          coordinates: { x: 0, y: 0 }
+          coordinates: { x: 12, y: 27 }
         },
         {
           id: 9,
@@ -107,7 +106,7 @@ export const useTripsStore = defineStore('trips', () => {
           date: '2017-05-16',
           description: '',
           fullTextSearch: '',
-          coordinates: { x: 0, y: 0 }
+          coordinates: { x: 9, y: 16 }
         },
         {
           id: 10,
@@ -116,7 +115,7 @@ export const useTripsStore = defineStore('trips', () => {
           date: '2017-05-17',
           description: '',
           fullTextSearch: '',
-          coordinates: { x: 0, y: 0 }
+          coordinates: { x: 9, y: 16 }
         },
         {
           id: 11,
@@ -125,7 +124,7 @@ export const useTripsStore = defineStore('trips', () => {
           date: '2017-05-18',
           description: '',
           fullTextSearch: '',
-          coordinates: { x: 0, y: 0 }
+          coordinates: { x: 9, y: 16 }
         },
         {
           id: 14,
@@ -134,7 +133,7 @@ export const useTripsStore = defineStore('trips', () => {
           date: '2017-05-21',
           description: '',
           fullTextSearch: '',
-          coordinates: { x: 0, y: 0 }
+          coordinates: { x: 9, y: 16 }
         },
         {
           id: 15,
@@ -143,7 +142,7 @@ export const useTripsStore = defineStore('trips', () => {
           date: '2017-05-22',
           description: '',
           fullTextSearch: '',
-          coordinates: { x: 0, y: 0 }
+          coordinates: { x: 5, y: 13 }
         },
         {
           id: 16,
@@ -152,7 +151,7 @@ export const useTripsStore = defineStore('trips', () => {
           date: '2017-05-23',
           description: '',
           fullTextSearch: '',
-          coordinates: { x: 0, y: 0 }
+          coordinates: { x: 5, y: 13 }
         },
         {
           id: 17,
@@ -161,7 +160,7 @@ export const useTripsStore = defineStore('trips', () => {
           date: '2017-05-24',
           description: '',
           fullTextSearch: '',
-          coordinates: { x: 0, y: 0 }
+          coordinates: { x: 5, y: 13 }
         },
         {
           id: 18,
@@ -170,7 +169,7 @@ export const useTripsStore = defineStore('trips', () => {
           date: '2017-05-25',
           description: '',
           fullTextSearch: '',
-          coordinates: { x: 0, y: 0 }
+          coordinates: { x: 5, y: 13 }
         },
         {
           id: 19,
@@ -179,7 +178,7 @@ export const useTripsStore = defineStore('trips', () => {
           date: '2017-05-26',
           description: '',
           fullTextSearch: '',
-          coordinates: { x: 0, y: 0 }
+          coordinates: { x: 5, y: 13 }
         },
         {
           id: 20,
@@ -188,7 +187,7 @@ export const useTripsStore = defineStore('trips', () => {
           date: '2017-05-27',
           description: '',
           fullTextSearch: '',
-          coordinates: { x: 0, y: 0 }
+          coordinates: { x: 5, y: 13 }
         },
         {
           id: 21,
@@ -197,7 +196,7 @@ export const useTripsStore = defineStore('trips', () => {
           date: '2017-05-28',
           description: '',
           fullTextSearch: '',
-          coordinates: { x: 0, y: 0 }
+          coordinates: { x: 8.5, y: 10.5 }
         },
         {
           id: 22,
@@ -206,7 +205,7 @@ export const useTripsStore = defineStore('trips', () => {
           date: '2017-05-29',
           description: '',
           fullTextSearch: '',
-          coordinates: { x: 0, y: 0 }
+          coordinates: { x: 8.5, y: 10.5 }
         },
         {
           id: 23,
@@ -858,8 +857,7 @@ export const useTripsStore = defineStore('trips', () => {
       cover: "",
       startDate: "2018-08-13",
       endDate: "2018-09-09",
-      mapName: "",
-      showMap: false,
+      map: "",
       photosBase: "perou",
       photosPrefix: "perou",
       photosExt: "jpg",
