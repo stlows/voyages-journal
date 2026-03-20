@@ -12,7 +12,7 @@ export const useTripsStore = defineStore('trips', () => {
       countries: ['Thaïlande', 'Laos', "Vietnam", "Indonésie"],
       startDate: '2017-05-07',
       endDate: '2017-08-08',
-      cover: "asie_cover.jpg",
+      cover: "asie.jpg",
       map: "sea.png",
       photosBase: "asie",
       photosPrefix: "asie",

@@ -89,7 +89,7 @@ const goHome = () => {
   <div class="trip-view">
     <div class="trip-header">
       <div class="header-content">
-        <img v-if="trip?.cover" :src="trip.cover" :alt="trip?.name" class="trip-cover-image" />
+        <img v-if="trip?.cover" :src="`/voyages-journal/images/covers/${trip.cover}`" :alt="trip?.name" class="trip-cover-image" />
         <div class="header-text">
           <h1>{{ trip?.name }}</h1>
           <p v-if="trip?.description" class="trip-description">{{ trip.description }}</p>
@@ -109,7 +109,7 @@ const goHome = () => {
         <div class="map-container">
           <div class="map-wrapper">
             <img 
-              :src="`/images/maps/${map}`"
+              :src="`/voyages-journal/images/maps/${map}`"
               :alt="trip?.name"
               class="map-image"
             />
@@ -174,7 +174,7 @@ const goHome = () => {
         <div class="journal-book" v-if="selectedJour.images.length">
           <div class="book-pages">
             <div class="page" v-for="(image, idx) in currentPageImages" :key="idx">
-              <img :src="`/images/trips/${trip?.photosBase}/${trip?.photosPrefix}_${image}.${trip?.photosExt}`" :alt="`Page ${currentPage * 2 + idx + 1}`" />
+              <img :src="`/voyages-journal/images/trips/${trip?.photosBase}/${trip?.photosPrefix}_${image}.${trip?.photosExt}`" :alt="`Page ${currentPage * 2 + idx + 1}`" />
             </div>
           </div>
           

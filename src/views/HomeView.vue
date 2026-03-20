@@ -23,7 +23,7 @@ const selectTrip = (trip: Trip) => {
     <div class="trips-list">
       <div v-for="trip in tripsStore.tripsData" :key="trip.id" class="trip-card" @click="selectTrip(trip)">
         <div class="trip-image-container" :style="{ backgroundColor: `hsl(${trip.id * 120}, 70%, 80%)` }">
-          <img v-if="trip.cover" :src="trip.cover" :alt="trip.name" class="trip-image" />
+          <img v-if="trip.cover" :src="`/voyages-journal/images/covers/${trip.cover}`" :alt="trip.name" class="trip-image" />
         </div>
         <div class="trip-content">
           <h2>{{ trip.name }}</h2>
